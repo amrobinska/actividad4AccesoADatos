@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<concierto>
+    <fecha>20-oct-2018</fecha>
+    <hora>21:30</hora>
+    <participantes>
+        <entrada>21:30</entrada>
+        <grupo>LAS ARDILLAS DE DAKOTA</grupo>
+    </participantes>
+    <participantes>
+        <entrada>22:15</entrada>
+        <grupo>FITO Y LOS FITIPALDIS</grupo>
+    </participantes>
+    <participantes>
+        <entrada>23:00</entrada>
+        <grupo>COLDPLAY</grupo>
+    </participantes>
+</concierto>
