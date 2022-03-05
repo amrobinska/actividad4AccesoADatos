@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gimnasio>
+    <nombre>caos</nombre>
+    <direccion>Paseo de la direccion</direccion>
+    <socios>
+        <socio id="1">
+            <nombre>Alfonso</nombre>
+            <apellidos>Olivas Garcia</apellidos>
+            <direccion>Calle Goya 86</direccion>
+            <telefono>9144422233</telefono>
+        </socio>
+        <socio id="2">
+            <nombre>Alexandra</nombre>
+            <apellidos>Mendoza Robinska</apellidos>
+            <direccion>Calle Pez Volador 24</direccion>
+            <telefono>913332211</telefono>
+        </socio>
+        <socio id="3">
+            <nombre>Maria</nombre>
+            <apellidos>Perez Martinez</apellidos>
+            <direccion>Calle Alcala 33</direccion>
+            <telefono>915552233</telefono>
+        </socio>
+        <socio id="4">
+            <nombre>Miguel</nombre>
+            <apellidos>Dominguez Dominguez</apellidos>
+            <direccion>Calle Sirio 34</direccion>
+            <telefono>913334411</telefono>
+        </socio>
+    </socios>
+</gimnasio>

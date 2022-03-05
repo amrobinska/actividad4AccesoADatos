@@ -53,7 +53,7 @@ public class LecturaXML {
 			Node participante = nodos.item(i);
 			if(participante.getNodeType() == Node.ELEMENT_NODE) {
 				Node hora = participante.getChildNodes().item(0);
-				Node grupo = participante.getChildNodes().item(1);;
+				Node grupo = participante.getChildNodes().item(1);
 				System.out.println("\t" + hora.getTextContent() + " " + grupo.getTextContent());
 			}
 		}

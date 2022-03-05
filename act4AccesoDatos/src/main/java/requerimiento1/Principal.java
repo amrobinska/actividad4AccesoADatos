@@ -27,6 +27,16 @@ public class Principal {
 			Element concierto = doc.createElement("concierto");
 			doc.appendChild(concierto);
 			
+			Element fecha = doc.createElement("fecha");
+			Text textoFecha = doc.createTextNode("20-oct-2018");
+			fecha.appendChild(textoFecha);
+			concierto.appendChild(fecha);
+			
+			Element hora = doc.createElement("hora");
+			Text textoHora = doc.createTextNode("21:30");
+			hora.appendChild(textoHora);
+			concierto.appendChild(hora);
+			
 			// Añadimos los datos del concierto
 			agregarParticipantes(concierto,doc);
 			
@@ -43,15 +53,6 @@ public class Principal {
 	
 	public static void agregarParticipantes(Element concierto, Document doc) {
 		
-		Element fecha = doc.createElement("fecha");
-		Text textoFecha = doc.createTextNode("20-oct-2018");
-		fecha.appendChild(textoFecha);
-		concierto.appendChild(fecha);
-		
-		Element hora = doc.createElement("hora");
-		Text textoHora = doc.createTextNode("21:30");
-		hora.appendChild(textoHora);
-		concierto.appendChild(hora);
 		
 		Element participantes = doc.createElement("participantes");
 		concierto.appendChild(participantes);
