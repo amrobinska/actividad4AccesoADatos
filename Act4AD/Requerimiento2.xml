@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cine>
+    <direccion>Dr Cortezo 6</direccion>
+    <nombre>Ideal</nombre>
+    <sala>
+        <nombre>Calle</nombre>
+        <numeroSala>Cuatro</numeroSala>
+    </sala>
+</cine>
